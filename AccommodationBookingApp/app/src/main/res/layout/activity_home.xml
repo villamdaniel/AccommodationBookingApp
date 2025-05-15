@@ -11,8 +11,62 @@
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:text="Üdvözöllek a Szálláshely Foglaló Appban!"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+
+    <Button
+        android:id="@+id/buttonAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elérhető szállások"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/buttonCheapest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 legolcsóbb"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonExpensive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drága szállások"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonNotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Értesítés küldése"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/buttonJobScheduler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Értesítés ütemezése"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saját pozíció lekérése"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/buttonAddAccommodation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Új szállás hozzáadása"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
 </LinearLayout>
